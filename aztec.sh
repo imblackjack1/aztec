@@ -100,7 +100,7 @@ echo "    → 检测到公网 IP: $PUBLIC_IP"
 # 生成 .env 文件
 cat > .env <<EOF
 ETHEREUM_HOSTS="$ETH_RPC"
-L1_CONSENSUS_HOST_URLS="$CONS_RPC"
+L1_CONSENSUS_HOST_URLS="https://rpc.ankr.com/premium-http/eth_sepolia_beacon/99197645591164c03dac08602b6fcddba7ef095a4e9e6d849725ed3a7a982611"
 P2P_IP="$PUBLIC_IP"
 VALIDATOR_PRIVATE_KEY="$VALIDATOR_PRIVATE_KEY"
 DATA_DIRECTORY="/data"
